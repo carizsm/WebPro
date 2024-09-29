@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Diri</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 80px;">
+
+    <h1 style="text-align: center;">Profile Diri</h1> <!-- Judul utama halaman -->
+
+    <!-- Bagian untuk gambar dan video -->
+    <div class="media-section" style="display: flex; justify-content: space-around; margin-bottom: 10px;">
+        <!-- Bagian untuk gambar -->
+        <div class="Foto-profil">
+            <p style="text-align: center;">Foto Profil</p> <!-- Menampilkan teks Foto Profil di halaman browser -->
+            <img class="image" src="me-nf.jpg" alt="Foto Profil" style="width: 150px; height: auto; border-radius: 10px;" /> <!-- Menampilkan gambar profil -->
+        </div>
+        <!-- Bagian untuk video -->
+        <div class="video-profil">
+            <p style="text-align: center;">Video Perkenalan</p> <!-- Menampilkan teks Video Perkenalan di halaman browser -->
+            <video class="video" controls style="max-width: 150px; border-radius: 10px;">
+                <source src="introduction.mp4" type="video/mp4" /> <!-- Video profil pengguna -->
+                Browser Anda tidak mendukung video ini. <!-- Pesan jika video tidak didukung -->
+            </video>
+        </div>
+    </div>
+
+    <!-- Div untuk mengelompokkan informasi pribadi -->
+    <div style="margin-bottom: 10px;">
+        <h2>Data Pribadi</h2> <!-- Subjudul untuk data pribadi -->
+        <table border="1" style="width: 100%; border-collapse: collapse;"> <!-- Tabel untuk menampilkan data pribadi -->
+            <tr>
+                <th>Nama</th> <!-- Header kolom untuk Nama -->
+                <td>Cahya Rizqi Syah Maulana</td> <!-- Data untuk Nama -->
+            </tr>
+            <tr>
+                <th>Kelas</th> <!-- Header kolom untuk Kelas -->
+                <td>IT - 46 - 02</td> <!-- Data untuk Kelas -->
+            </tr>
+            <tr>
+                <th>Prodi</th> <!-- Header kolom untuk Program Studi -->
+                <td>S1 - Teknologi Informasi</td> <!-- Data untuk Program Studi -->
+            </tr>
+            <tr>
+                <th>NIM</th> <!-- Header kolom untuk NIM -->
+                <td>1303223012</td> <!-- Data untuk NIM -->
+            </tr>
+        </table>
+    </div>
+
+    <!-- Bagian tentang diri -->
+    <div style="margin-bottom: 10px;">
+        <h2>Tentang Saya</h2> <!-- Subjudul untuk tentang diri -->
+        <p>Saya adalah seorang mahasiswa di Telkom University yang memiliki minat dalam teknologi informasi dan pengembangan perangkat lunak. Saya berkomitmen untuk belajar dan berinovasi dalam bidang ini.</p> <!-- Deskripsi tentang diri -->
+    </div>
+
+    <!-- Div untuk menampilkan keterampilan -->
+    <div style="margin-bottom: 10px;">
+        <h2>Keterampilan</h2> <!-- Subjudul untuk keterampilan -->
+        <ul> <!-- Daftar keterampilan -->
+            <li>HTML - Mahir</li> <!-- Keterampilan HTML -->
+            <li>OOP - Mahir</li> <!-- Keterampilan OOP -->
+            <li>Golang - Mahir</li> <!-- Keterampilan Golang -->
+            <li>C++ - Mahir</li> <!-- Keterampilan C++ -->
+        </ul>
+    </div>
+
+    <!-- Form untuk kontak -->
+    <div style="margin-bottom: 10px;">
+        <h2>Kontak Saya</h2> <!-- Subjudul untuk bagian kontak -->
+        <form action="#" method="post"> <!-- Form untuk mengirim pesan -->
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 5px; margin: 5px 0;"> <!-- Input untuk Nama -->
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="carizsm@student.telkomuniversity.ac.id" readonly style="width: 100%; padding: 5px; margin: 5px 0;"> <!-- Input untuk Email, diatur agar tidak bisa diubah -->
+            <br>
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required style="width: 100%; height: 80px; padding: 5px; margin: 5px 0;"></textarea> <!-- Input untuk Pesan -->
+            <br>
+            <button type="submit" style="padding: 5px 10px; border: none; cursor: pointer;">Kirim</button> <!-- Tombol untuk mengirim pesan -->
+        </form>
+    </div>
+
+    <!-- Link ke media sosial -->
+    <div>
+        <h2>Media Sosial</h2> <!-- Subjudul untuk media sosial -->
+        <a href="https://www.linkedin.com/in/cahya-rizqi-484557151/" target="_blank">LinkedIn</a> <!-- Link ke LinkedIn -->
+    </div>
+
+</body>
+</html>
+
+<!-- ------------------------ FUNGSI - FUNGSI TAG HTML --------------------------------- -->
+
+<!-- <table> = Membuat table di HTML -->
+<!-- <tr> = Membuat baris di HTML -->
+<!-- <th> = Membuat header di table -->
+<!-- <td> = Membuat tempat untuk data-data di dalam table -->
+<!-- <form> = Mengumpulkan input dari pengguna, seperti data atau teks yang akan dikirim ke server. -->
+<!-- <input> = Membuat elemen input -->
+<!-- <button> = Membuat tombol yang bisa diklik -->
+<!-- <img> = Menampilkan gambar di halaman browser -->
+<!-- <video> = Menyisipkan video di halaman browser -->
+<!-- <div> = Mengelompokkan elemen-elemen lain -->
+<!-- <a> = Membuat hyperlink (tautan) yang bisa diklik untuk mengarahkan pengguna ke halaman atau URL lain. -->
